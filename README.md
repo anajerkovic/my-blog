@@ -12,3 +12,10 @@
 ### Technical Requirements
 The application is a web server built using Node.js and Express.js. Express.js handles routing and middleware.
 EJS is used as the templating engine to generate dynamic HTML based on the application's state.
+
+### Node modules
+Node modules are in the gitignore file, to run the application run
+```
+npm install
+```
+to rebuild it.
