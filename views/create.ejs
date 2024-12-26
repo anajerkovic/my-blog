@@ -1,0 +1,9 @@
+<%- include("partials/header.ejs") %>
+
+<form class="creation-form" action="/submit" method="POST">
+    <input class="input" type="text" name="postTitle" placeholder="Post Title" required><br>
+    <textarea class="input content" name="postContent" placeholder="Post Content" maxlength="1024" required></textarea><br>
+    <button class="post-button" type="submit">Post</button>
+  </form>
+
+  <%- include("partials/footer.ejs") %>
